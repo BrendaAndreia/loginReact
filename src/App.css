@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html, body, *{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    background-color: inherit;
+    
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.container{
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.login-register-wrapper{
+    height: 560px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 2em;
+    border-radius: 0px 2px 7px rgba(0,0,0,0.2);
+    overflow: hidden;
+    color: #fff;
+    background: linear-gradient(180deg, rgba(19,38,79,1) 0%, rgba(22,147,198,1) 54%, rgba(255,255,255,0) 85%);
+}
+
+/*navegaçao dos botoes*/
+.navButtons{
+    width: 100%;
+    height: 100px;
+    padding-top: 40px;
+    margin-bottom: 44px;  
+}
+
+
+button{
+    font-size: 24px;
+    margin-right: 16px;
+    border: 0px;
+    cursor: pointer;
+}
+
+button:focus{
+    outline: 0;
+} 
+
+button.active{
+    padding-bottom: 10px;
+    border-bottom: solid 2px #1059ff;
+}
+
+.forgotPanel{
+    position: relative;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 24px;
+    border-top: 1px solid rgba(255,255,255 0.3);
+    margin-top: -300px;
+    color: lightgray;
+}
+
+.formGroup label{
+    text-transform: capitalize;
+}
+.formGroup input{
+    width: 100%;
+    height: 35px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background: rgba(255,255,255, 0.2);
+    outline: 0;
+}
+.formGroup input{
+    width: 100%;
+    height: 35px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background: rgba(255,255,255, 0.2);
+}
+input.submit{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    color: rgba(255, 255,255,1);
+    padding: 8px 0;
+    width: 100%;
+    height: 35px;
+    border-radius: 20px ;
+    background-color: rgba(16,89,255, 1);
+}
+/*posição e animação form*/
+form#registerForm{
+    left: 500px;
+    top: -230px;
+    position: relative;
+}
+
+form, .forgotPanel{
+    position: relative;
+    transition: all ease 0.3s;
+}
+
+#loginBtn, #registerBtn{
+    transition: all ease 0.2s;
+}
+
+.registerForLogin{
+    margin-top: 0px;
+}
