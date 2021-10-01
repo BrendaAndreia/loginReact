@@ -13,6 +13,6 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 =======
-# loginReactNode
-Sistema de login/cadastro com react e node.js
+# loginReact
+Form de login com React, react spring. 
 
